@@ -1,7 +1,9 @@
 
 const mongoose = require('mongoose')
 
-const URI="mongodb://localhost:27017/inotebook";
+const URI="mongodb://127.0.0.1:27017/inotebook";
+
+// this will 
 
 const connecttomongo = async () => {
     try {
